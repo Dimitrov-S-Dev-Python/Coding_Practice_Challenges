@@ -8,9 +8,10 @@
 while True:
     user_name = input("Please enter your username:")
     with open("Username_and_Password_Checker.txt", "r") as file:
-        users = file.read()
-        users = [i.strip("\n") for i in users]
-    if user_name in users:
+        users = file.readlines()
+        users_list = [i.strip("\n") for i in users]
+
+    if user_name in users_list:
         print("Username exist")
         continue
     else:
