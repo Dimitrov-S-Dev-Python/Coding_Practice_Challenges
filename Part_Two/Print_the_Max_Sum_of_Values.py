@@ -8,11 +8,13 @@ my_dict = {
 	"c": [3, 5, 9],
 	"d": [45, 12, 100]
 }
-max_sum = 0
+max_sum = None
 
-for v in my_dict.values():
-    curr_sum = sum(v)
-    if curr_sum > max_sum:
+for list_values in my_dict.values():
+    curr_sum = sum(list_values)
+    if max_sum is None:
+        max_sum = curr_sum
+    elif curr_sum > max_sum:
         max_sum = curr_sum
 
 print(max_sum)
