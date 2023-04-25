@@ -12,10 +12,9 @@ my_string = "Hello, World"
 result = {}
 
 for element in my_string.lower():
-    if not element.isalpha():
-        continue
-    if element not in result.keys():
-        result[element] = 0
-    result[element] += 1
+    if element.isalpha():
+        if element not in result.keys():
+            result[element] = 0
+        result[element] += 1
 
 print(result)
