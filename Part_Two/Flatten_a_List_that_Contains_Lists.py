@@ -1,5 +1,5 @@
 """
-Write a Python program that prints a "flattened" version of a list
+Write a program that prints a "flattened" version of a list
 that contains nested lists.
 """
 

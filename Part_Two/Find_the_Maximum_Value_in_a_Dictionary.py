@@ -1,5 +1,5 @@
 """
-Write a Python program that prints the largest value in a dictionary.
+Write a program that prints the largest value in a dictionary.
 If the dictionary is empty, print None.
 You may assume that the values are numeric
 """

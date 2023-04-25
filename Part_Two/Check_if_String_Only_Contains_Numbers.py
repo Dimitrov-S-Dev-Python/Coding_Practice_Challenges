@@ -1,4 +1,4 @@
-# Write a Python program that check if a string only contains numbers.
+# Write a program that check if a string only contains numbers.
 # If it does, print True. Else, print False.
 
 s = input()

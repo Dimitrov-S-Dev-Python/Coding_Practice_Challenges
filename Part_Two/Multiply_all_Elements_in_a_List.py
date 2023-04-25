@@ -1,5 +1,5 @@
 """
-Write a Python program that multiplies all the items in a list
+Write a program that multiplies all the items in a list
 by the value of the variable factor.
 The program must print the list as the output.
 The program should also allow multiplying the variable factor

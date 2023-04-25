@@ -1,5 +1,5 @@
 """
-Write a Python program that prints the string s with the character curr_char
+Write a program that prints the string s with the character curr_char
 replaced by the character new_char.
 curr_char and new_char are variables that contain strings with a single character.
 You may assume that new_char will not be an empty string.

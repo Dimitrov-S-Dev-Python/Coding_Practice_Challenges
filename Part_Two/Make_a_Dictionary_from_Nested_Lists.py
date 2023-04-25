@@ -1,5 +1,5 @@
 """
-Write a Python program that creates a dictionary from the values
+Write a program that creates a dictionary from the values
 contained in nested lists.
 Each nested list has this format [value1, value2].
 value1 should be the key in the dictionary and value2 should be its

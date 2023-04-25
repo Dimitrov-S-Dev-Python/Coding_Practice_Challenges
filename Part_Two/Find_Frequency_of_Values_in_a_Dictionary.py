@@ -1,5 +1,5 @@
 """
-Write a Python program that counts the frequency of each value in a dictionary.
+Write a program that counts the frequency of each value in a dictionary.
 The program should create a new dictionary to map each value in the
 original dictionary to its frequency (how many times it occurs).
 If the dictionary is empty, print an empty dictionary.

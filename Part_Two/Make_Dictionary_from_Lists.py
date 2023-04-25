@@ -1,5 +1,5 @@
 """
-Write a Python program that creates and print a dictionary that maps
+Write a program that creates and print a dictionary that maps
 each element in a list to its corresponding frequency
 (how many times it occurs in the list).
 The test should be case-sensitive. Therefore, "A" should not be considered
