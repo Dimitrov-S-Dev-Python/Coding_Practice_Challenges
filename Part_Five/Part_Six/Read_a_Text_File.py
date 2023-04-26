@@ -17,5 +17,3 @@ with open("basic_file.txt", "r") as file:
     content = file.readlines()
 
 print(content)
-
-
