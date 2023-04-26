@@ -12,3 +12,16 @@ for number in range(2, n + 1):
         factorial *= number
 
 print(factorial)
+
+"""
+With While loop
+"""
+factorial = 1
+count = 2
+while count <= n:
+    factorial *= count
+    count += 1
+print(factorial)
+
+
+
