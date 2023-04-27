@@ -10,4 +10,3 @@ REMEMBER, RETURN A TUPLE!!!
 
 def extremes(nums):
     return (min(nums), max(nums))
-
