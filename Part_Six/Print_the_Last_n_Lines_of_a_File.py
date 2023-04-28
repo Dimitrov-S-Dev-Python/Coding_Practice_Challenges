@@ -11,7 +11,7 @@ lines = len(content)
 user_input = int(input("Please enter a value for n: "))
 
 if user_input > lines:
-    user_input = input(f"Please enter a value las then {lines}")
+    user_input = input(f"Please enter a valid value las then {lines}")
 else:
     for i in range(-user_input, 0):
         print(content[i].strip("\n"))
