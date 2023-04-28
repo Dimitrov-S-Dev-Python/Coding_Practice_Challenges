@@ -25,8 +25,8 @@ class Deck:
         actual = min(count, num)
         if count == 0:
             raise ValueError ("All cards have been dealt")
-        cards = self.cards[-actual:]
-        self.cards = self.cards[:-actual]
+        cards = self.cards[:actual]
+        self.cards = self.cards[actual:]
         return cards
 
     def deal_card(self):
