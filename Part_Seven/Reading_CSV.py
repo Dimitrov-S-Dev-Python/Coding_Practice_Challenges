@@ -1,5 +1,7 @@
 from csv import reader
 
+# using reader
+
 # with open("fighters.csv", "r") as file:
 #     content = reader(file)
 #     next(content)
