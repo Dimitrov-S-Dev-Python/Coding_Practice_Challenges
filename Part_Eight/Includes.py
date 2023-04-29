@@ -22,4 +22,4 @@ def includes(item, val, start=None):
         return val in item
     return val in item[start:]
 
-print(includes("abcd", b))
+print(includes("abcd", "b"))
