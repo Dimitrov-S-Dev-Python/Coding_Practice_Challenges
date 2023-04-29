@@ -14,3 +14,12 @@ includes({ 'a': 1, 'b': 2 }, 'a') # False
 includes('abcd', 'b') # True
 includes('abcd', 'e') # False
 """
+
+def includes(item, val, start=None):
+    if type(item) == dict:
+        return val in item.values()
+    if start is None:
+        return val in item
+    return val in item[start:]
+
+print(includes("abcd", b))
