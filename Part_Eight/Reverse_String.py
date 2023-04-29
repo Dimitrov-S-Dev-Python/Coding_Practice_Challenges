@@ -1,5 +1,4 @@
 """
-reverse_string
 Write a function called reverse_string which accepts a string and returns a
 new string with all the characters reversed.
 """
