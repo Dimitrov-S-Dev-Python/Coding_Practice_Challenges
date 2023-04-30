@@ -14,6 +14,8 @@ oneAddition(2,2) # None
 oneAddition(12,200) # None
 """
 
+def add(a,b):
+    return a+b
 
 def once(fn):
     fn.is_called = False
@@ -24,3 +26,7 @@ def once(fn):
             return fn(*args)
 
     return inner
+
+
+oneAddition = once(add)
+print(oneAddition(2,2))
