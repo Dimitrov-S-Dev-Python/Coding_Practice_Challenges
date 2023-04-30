@@ -11,3 +11,16 @@ counter2 = letter_counter('This Is Really Fun!')
 counter2('i') # 2
 counter2('t') # 1
 """
+
+
+def letter_counter(s):
+    letter_counter.val = s
+
+    def inner(char):
+        return len(
+            list(c.lower() for c in letter_counter.val.lower() if c == char))
+
+    return inner
+
+counter = letter_counter('Amazing')
+print(counter('a')) # 2
